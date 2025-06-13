@@ -1,73 +1,59 @@
-# Welcome to your Lovable project
+# VANI - Versatile API Native Integrator
 
-## Project info
+![VANI Logo](https://github.com/ManojhM-Work/VANI-V2/blob/main/public/logo.png?raw=true)
 
-**URL**: https://lovable.dev/projects/1b74536c-723e-493e-8e83-6852140214a8
+VANI is an advanced API testing platform that provides AI-powered API conversion, comprehensive testing capabilities, and seamless CI/CD integration for modern development workflows.
 
-## How can I edit this code?
+## 🌟 Key Features
 
-There are several ways of editing your application.
+### 🔄 AI-Powered API Conversion
+- Convert between 12+ API formats including Postman, Swagger, JMeter, Playwright, and more
+- AI-assisted schema transformation and validation
+- Smart endpoint mapping between different formats
+- Batch conversion for large collections
 
-**Use Lovable**
+### 🧪 Functional Testing
+- Automated test case generation from API specifications
+- Visual test scenario builder
+- Assertion library with 50+ built-in validations
+- Test data management with variables and environments
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/1b74536c-723e-493e-8e83-6852140214a8) and start prompting.
+### ⚡ Performance Testing
+- Convert API specs directly to JMeter load tests
+- AI-suggested performance thresholds
+- Real-time metrics dashboard
+- Distributed load testing capabilities
 
-Changes made via Lovable will be committed automatically to this repo.
+### 🚀 CI/CD Integration
+- Native GitHub Actions support
+- JUnit/XUnit test reporting
+- Performance regression tracking
+- Slack/Teams notification hooks
 
-**Use your preferred IDE**
+## 🛠️ Tech Stack
 
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
+**Frontend:**
+- React + TypeScript
+- ShadCN UI Components
+- Vite Build System
+- Playwright Test Runner
 
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
+**Backend:**
+- Python Flask
+- AI Conversion Engine
+- JMeter Integration
+- Docker Containerization
 
-Follow these steps:
+## 🚀 Getting Started
 
-```sh
-# Step 1: Clone the repository using the project's Git URL.
-git clone <YOUR_GIT_URL>
+### Prerequisites
+- Node.js v18+
+- Python 3.10+
+- Docker (optional)
 
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
+### Installation
 
-# Step 3: Install the necessary dependencies.
-npm i
-
-# Step 4: Start the development server with auto-reloading and an instant preview.
-npm run dev
-```
-
-**Edit a file directly in GitHub**
-
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
-
-**Use GitHub Codespaces**
-
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
-
-## What technologies are used for this project?
-
-This project is built with:
-
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
-
-## How can I deploy this project?
-
-Simply open [Lovable](https://lovable.dev/projects/1b74536c-723e-493e-8e83-6852140214a8) and click on Share -> Publish.
-
-## Can I connect a custom domain to my Lovable project?
-
-Yes, you can!
-
-To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
-
-Read more here: [Setting up a custom domain](https://docs.lovable.dev/tips-tricks/custom-domain#step-by-step-guide)
+1. **Clone the repository:**
+   ```bash
+   git clone https://github.com/ManojhM-Work/VANI-V2.git
+   cd VANI-V2
