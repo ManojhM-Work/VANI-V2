@@ -280,7 +280,7 @@ const generateConversionReport = (sourceFormat: string, targetFormat: string, fi
           const endpoint = parsedContent.paths[path][method];
           
           // Randomly determine if conversion succeeded for demo purposes
-          const succeeded = Math.random() > 0.25;
+          const succeeded = Math.random() > 0.1;
           if (succeeded) successfulEndpoints++;
           
           endpoints.push({
@@ -305,7 +305,7 @@ const generateConversionReport = (sourceFormat: string, targetFormat: string, fi
         const endpoint = `${method} ${path}${i > 0 ? `/${i}` : ""}`;
         
         // Randomly determine if conversion succeeded
-        const succeeded = Math.random() > 0.25;
+        const succeeded = Math.random() > 0.1;
         if (succeeded) successfulEndpoints++;
         
         endpoints.push({
@@ -755,7 +755,7 @@ const Conversion = () => {
           </p>
         </div>
         <TTRDialog>
-          <Button variant="outline" className="flex items-center gap-2">
+          <Button variant="outline" className="flex items-center gap-2" style={{ backgroundColor: "#3BB1E8E6" }}>
             <Brain className="h-4 w-4" />
             TTR
           </Button>

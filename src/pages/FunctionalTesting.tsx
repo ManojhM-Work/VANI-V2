@@ -524,8 +524,8 @@ const FunctionalTesting = () => {
         </p>
       </div>
 
-      <div className="flex flex-col md:flex-row gap-6">
-        <div className="md:w-1/3 space-y-6">
+      <div className="grid grid-cols-1 lg:grid-row-3 gap-6">
+        <div className="lg:col-span-1 space-y-6">
           <Card>
             <CardHeader className="flex flex-row items-center justify-between pb-2">
               <CardTitle>Request Builder</CardTitle>
@@ -585,7 +585,7 @@ const FunctionalTesting = () => {
                           onClick={() => handleRequestSelection(req.id)}
                         >
                           <div className="flex items-center justify-between">
-                            <div className="flex items-center truncate">
+                            <div className="flex items-center truncate w-1/2">
                               <span className={`font-mono text-xs mr-2 px-1.5 rounded ${
                                 req.method === 'GET' ? 'bg-blue-100 text-blue-800' :
                                 req.method === 'POST' ? 'bg-green-100 text-green-800' :
@@ -618,7 +618,7 @@ const FunctionalTesting = () => {
                 <div>
                   <div className="flex items-center space-x-2 mb-4">
                     <Select value={method} onValueChange={setMethod}>
-                      <SelectTrigger className="w-[30%]">
+                      <SelectTrigger className="w-[15%]">
                         <SelectValue placeholder="Method" />
                       </SelectTrigger>
                       <SelectContent>
@@ -747,7 +747,7 @@ const FunctionalTesting = () => {
           </Card>
         </div>
 
-        <div className="md:w-2/3">
+        <div className="lg:col-span-1 space-y-6">
           {showTestReport ? (
             <TestReport 
               results={testResults} 

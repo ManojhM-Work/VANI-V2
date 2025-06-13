@@ -308,7 +308,7 @@ Running 3 tests using 1 worker
         </p>
       </div>
 
-      <div className="grid grid-cols-1 lg:grid-cols-3 gap-6">
+      <div className="grid grid-cols-1 lg:grid-row-3 gap-6">
         <div className="lg:col-span-1 space-y-6">
           <Card>
             <CardHeader>
@@ -326,6 +326,7 @@ Running 3 tests using 1 worker
                     <SelectItem value="chromium">Chromium</SelectItem>
                     <SelectItem value="firefox">Firefox</SelectItem>
                     <SelectItem value="webkit">WebKit</SelectItem>
+                    <SelectItem value="All 3 Browsers">All 3 Browsers</SelectItem>
                   </SelectContent>
                 </Select>
               </div>

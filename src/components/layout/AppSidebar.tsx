@@ -82,6 +82,7 @@ const AppSidebar = ({ isOpen }: AppSidebarProps) => {
           ))}
         </SidebarMenu>
       </SidebarContent>
+      <h4 className="text-center w-full mb-4">@Developed by EXPLEO</h4>
     </Sidebar>
   );
 };

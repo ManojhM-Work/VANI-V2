@@ -52,6 +52,19 @@ const Login = () => {
     <div className="min-h-screen flex items-center justify-center bg-background p-4">
       <Card className="w-full max-w-md">
         <CardHeader className="space-y-1">
+                  <img
+          src="./Vani_logo.png" // Replace with your actual logo path
+          alt="Logo"
+          className="w-[170px] h-[110px] mx-auto" // Adjust height as needed to fit the header
+          style={{
+            filter: `
+      drop-shadow(-1px -1px 0px white)
+      drop-shadow(1px -1px 0px white)
+      drop-shadow(-1px 1px 0px white)
+      drop-shadow(1px 1px 0px white)
+    `
+          }}
+        />
           <CardTitle className="text-2xl font-bold text-center">Login to VANI</CardTitle>
           <CardDescription className="text-center">
             Enter your credentials to access the application
@@ -89,11 +102,11 @@ const Login = () => {
               {isLoading ? "Logging in..." : "Login"}
             </Button>
           </form>
-          <div className="mt-4 text-sm text-muted-foreground text-center">
+          {/* <div className="mt-4 text-sm text-muted-foreground text-center">
             <p>Test credentials:</p>
             <p>Username: Testadmin</p>
             <p>Password: Testadmin</p>
-          </div>
+          </div> */}
         </CardContent>
       </Card>
     </div>

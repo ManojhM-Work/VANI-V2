@@ -369,7 +369,7 @@ const PerformanceTesting = () => {
         </p>
       </div>
 
-      <div className="grid grid-cols-1 lg:grid-cols-3 gap-6">
+      <div className="grid grid-cols-1 lg:grid-row-3 gap-6">
         <div className="lg:col-span-1">
           <Card>
             <CardHeader className="flex flex-row items-center justify-between pb-2">

@@ -7,9 +7,9 @@ import { Link } from "react-router-dom";
 const Dashboard = () => {
   // Mock data for recent conversions and tests
   const recentActivity = [
-    { id: 1, name: "Postman to Swagger conversion", type: "conversion", date: "2023-05-12" },
-    { id: 2, name: "API Performance Test", type: "performance", date: "2023-05-10" },
-    { id: 3, name: "User Auth API Tests", type: "functional", date: "2023-05-08" },
+    { id: 1, name: "Postman to Swagger conversion", type: "conversion", date: "2025-06-12" },
+    { id: 2, name: "API Performance Test", type: "performance", date: "2025-06-10" },
+    { id: 3, name: "User Auth API Tests", type: "functional", date: "2025-06-08" },
   ];
 
   return (
